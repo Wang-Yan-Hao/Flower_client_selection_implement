@@ -5,3 +5,5 @@ Strategies decide how to sample clients, how to configure clients for training, 
 [Implementing strategies](https://flower.dev/docs/implementing-strategies.html)
 
 The configure_fit function in Strategy randomly sample clients originally. We will change the configure_fit function and get the client properties by get_properties function.
+
+flower_client_selection.ipynb is a actually strategy usage in [Building a Strategy]https://flower.dev/docs/tutorial/Flower-3-Building-a-Strategy-PyTorch.html
